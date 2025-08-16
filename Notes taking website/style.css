@@ -1,0 +1,91 @@
+
+/* style.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000; /* Black background */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* Subheadline */
+main h2 {
+  font-size: 1.3rem;
+  color: #bb86fc; /* Neon purple */
+  margin-bottom: 20px;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  padding: 15px;
+  font-size: 1rem;
+  border: 2px solid #bb86fc;
+  border-radius: 10px;
+  outline: none;
+  background: #111; /* Dark background inside */
+  color: #fff;
+  resize: none;
+  transition: 0.3s ease-in-out;
+}
+
+/* Glowing effect on focus */
+textarea:focus {
+  border-color: #bb86fc;
+  box-shadow: 0 0 20px #bb86fc;
+}
+
+/* Button */
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #bb86fc;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #fff;
+  color: #bb86fc;
+  box-shadow: 0 0 15px #bb86fc;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+footer b {
+  color: #bb86fc;
+}
